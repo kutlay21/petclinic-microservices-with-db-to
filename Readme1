@@ -650,7 +650,7 @@ yum -y install terraform
 ``` bash
 git add .
 git commit -m 'added jenkins server terraform files'
-git push --set-upstream origin feature/msp-11
+git push --set-upstream origin feature/msp-9
 git checkout dev
 git merge feature/msp-9
 git push origin dev
